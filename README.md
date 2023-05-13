@@ -1,5 +1,5 @@
 # Handwriten-digit-recognition
-Handwritten digit recognition using various deep learning models
+# Handwritten digit recognition using various deep learning models
 Many uses for digit recognition can be found in
 processing bank checks, identifying licence plates,
 sorting mail, and more . Due to the fact that
