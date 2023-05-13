@@ -52,10 +52,10 @@ recognise the handwritten numbers offered in the
 MINIST data collection of photographs of
 handwritten digits (0–9)
 # Methodology 
-first we have run our 5 model at 10 epoch 
-then at 50 and after that at 100. with a
-batch size of 128.we have used relu
-Activation function and softMax to.
+first we have run our 5 model at 10
+epoch then at 50 and after that at 100.
+with a batch size of 128.we have used
+relu as Activation function and softMax 
 for evaluation training loss and
 traninng accurcy is considerd. 
 #  mlp 
@@ -77,3 +77,10 @@ Dense(120, activation='relu'),
 # ResNet 
    Dense(units=256, activation='relu')
    Dense(units=128, activation='relu')
+# NOTE
+ we have also experimented with changes 
+ values of various parameters like acti-
+ cation function and evaluation metrics
+ and also thw imaage size from 28*28
+ to 32*32 and 64*64
+ whose code will be avilable in 2nd patch.
