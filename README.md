@@ -58,7 +58,7 @@ batch size of 128.we have used relu
 Activation function and softMax to.
 for evaluation training loss and
 traninng accurcy is considerd. 
-#  mlp consist following architecture
+#  mlp 
  Flatten(input_shape=(28, 28, 1)),
     Dense(128, activation='relu'),
     Dense(64, activation='relu'),
