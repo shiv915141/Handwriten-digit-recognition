@@ -1,15 +1,15 @@
 # Handwriten-digit-recognition
 # Handwritten digit recognition using various deep learning models
-Many uses for digit recognition can be found in
-processing bank checks, identifying licence plates,
-sorting mail, and more . Due to the fact that
-handwritten digit recognition is not optical
+Many uses for digit recognition can be found
+in processing bank checks, identifying licence 
+plates,sorting mail, and more . Due to the fact
+that handwritten digit recognition is not optical
 character recognition, there are numerous
-difficulties arising from the various writing styles
-used by various persons. For the goal of
-handwritten digit recognition, this research offers a
-thorough comparison of various machine learning
-and deep learning techniques.
+difficulties arising from the various writing 
+styles used by various persons. For the goal of
+handwritten digit recognition, this research 
+offers a thorough comparison of various machine-
+learning and deep learning techniques.
 # Used models
 MLP Classifier,LeNet, Le Net5, ResNet,and Convolutional Neural
 Network have all been utilized for this. A machine
@@ -80,7 +80,7 @@ Dense(120, activation='relu'),
 # NOTE
  we have also experimented with changes 
  values of various parameters like acti-
- cation function and evaluation metrics
+ vation function and evaluation metrics
  and also thw imaage size from 28*28
  to 32*32 and 64*64
  whose code will be avilable in 2nd patch.
