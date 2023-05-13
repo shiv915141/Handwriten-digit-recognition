@@ -10,7 +10,7 @@ used by various persons. For the goal of
 handwritten digit recognition, this research offers a
 thorough comparison of various machine learning
 and deep learning techniques.
-# used models
+# Used models
 MLP Classifier,LeNet, Le Net5, ResNet,and Convolutional Neural
 Network have all been utilized for this. A machine
 is more effective at pattern or text recognition
@@ -51,3 +51,29 @@ implement a method of pattern characterisation to
 recognise the handwritten numbers offered in the
 MINIST data collection of photographs of
 handwritten digits (0–9)
+# Methodology 
+first we have run our 5 model at 10 epoch 
+then at 50 and after that at 100. with a
+batch size of 128.we have used relu
+Activation function and softMax to.
+for evaluation training loss and
+traninng accurcy is considerd. 
+#  mlp consist following architecture
+ Flatten(input_shape=(28, 28, 1)),
+    Dense(128, activation='relu'),
+    Dense(64, activation='relu'),
+    Dense(10, activation='softmax')
+# CNN  
+   Dense(64, activation='relu'),
+    Dense(10, activation='softmax')
+# LeNet 
+ Dense(120, activation='relu'),
+    Dense(84, activation='relu'),
+    Dense(10, activation='softmax')
+# LeNet 5 
+Dense(120, activation='relu'),
+    Dense(84, activation='relu'),
+    Dense(10, activation='softmax')
+# ResNet 
+   Dense(units=256, activation='relu')
+   Dense(units=128, activation='relu')
