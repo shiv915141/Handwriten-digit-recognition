@@ -9,8 +9,9 @@ difficulties arising from the various writing styles
 used by various persons. For the goal of
 handwritten digit recognition, this research offers a
 thorough comparison of various machine learning
-and deep learning techniques.MLP Classifier,
-LeNet, Le Net5, ResNet,and Convolutional Neural
+and deep learning techniques.
+# used models
+MLP Classifier,LeNet, Le Net5, ResNet,and Convolutional Neural
 Network have all been utilized for this. A machine
 is more effective at pattern or text recognition
 thanks to machine learning technologies. Because
